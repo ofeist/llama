@@ -33,4 +33,3 @@ len(docs)
 
 qachain=GuardrailsOutputParser.from_chain_type(ollama, retriever=vectorstore.as_retriever())
 qachain.invoke({"query": question})
-
